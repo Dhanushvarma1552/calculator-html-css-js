@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Calculator</h2> 
+ <div class="box">
+   
+    <div> 
+        <input type="text" name="" id="input">
+    </div>
+    <div class="buttons">
+       <div class="row">
+         <button onclick="ac()">AC</button>
+         <button onclick="del()">D</button>
+         <button onclick="display('%')">%</button>
+         <button onclick="display('/')">/</button>
+       </div> 
+         
+       <div class="row">
+         <button onclick="display('7')">7</button>
+         <button onclick="display('8')">8</button>
+         <button onclick="display('9')">9</button>
+         <button onclick="display('*')">*</button>
+       </div>
+       
+       <div  class="row">
+          <button onclick="display('4')">4</button>
+          <button onclick="display('5')">5</button>
+          <button onclick="display('6')">6</button>
+          <button onclick="display('-')">-</button>
+       </div >
+
+        <div class="row" >
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')">+</button>
+        </div>
+
+        <div  class="row" id="row4">
+            <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+            <button id="eq" onclick="equ()">=</button>
+        </div>
+        
+
+        <script src="code.js"></script>
+    </div>
+  </div>  
+
+    
+    
+</body>
+</html>
